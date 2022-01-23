@@ -1,0 +1,62 @@
+:root {
+  --main-font-family: "Spinnaker", sans-serif;
+  --border-box-color-line: 1px solid #000000;
+}
+
+.contain {
+  max-width: 420px;
+  margin: 0 auto;
+  padding: 15px 60px;
+  height: 95px;
+  border: var(--border-box-color-line);
+  background-color: #f4ffd3;
+}
+
+h1 {
+  text-align: center;
+  font-family: var(--main-font-family);
+  font-size: 42px;
+}
+
+.begin {
+  display: block;
+  text-align: center;
+  padding: 70px 20px;
+}
+
+.container {
+  font-family: var(--main-font-family);
+}
+
+.former {
+  font-family: var(--main-font-family);
+  font-size: 13px;
+  max-width: 350px;
+}
+
+button {
+  font-family: var(--main-font-family);
+  display: block;
+  text-align: center;
+  padding: 15px 60px;
+  border: var(--border-box-color-line);
+  line-height: 15px;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 20px;
+  margin: 0 auto;
+  background-color: rgba(196, 196, 196, 1);
+}
+
+@media (max-width: 960px) {
+  h1 {
+    font-size: 35px;
+    padding: 0.5rem;
+  }
+  button {
+    font-size: 13px;
+  }
+  .former {
+    
+  }
+}
